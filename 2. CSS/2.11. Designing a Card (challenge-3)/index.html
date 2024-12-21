@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card making</title>
+    <style>
+        body {
+            background-color: rgb(233, 222, 208);
+        }
+
+        .card {
+            background-color: oldlace;
+            /* position: relative;
+            left: 420px; */
+            border: 4px solid rgb(153, 152, 152);
+            border-radius: 10px;
+            padding: 9px;
+            width: 260px;
+            margin: 20px;
+            height: 520px;
+        }
+
+        .image {
+            padding: 5px;
+        }
+
+        .image img {
+            border-radius: 7px;
+        }
+
+        .content {
+            padding: 0px 5px 20px 5px;
+            font-size: 19px;
+        }
+
+        span {
+            border: 2px solid rgb(34, 34, 34);
+            padding: 6px;
+            margin: 5px;
+            border-radius: 20px;
+            color: rgb(149, 1, 168);
+            font-size: 16px;
+        }
+
+        .heading {
+            padding: 20px 5px 8px 5px;
+            margin: 0;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .button {
+            text-align: center;
+            /*to center align an attributes like button, a href, add text-align: center to its parent class.. uske liye make a parent class first*/
+        }
+
+        .button button {
+            background-color: antiquewhite;
+            color: purple;
+            font-size: 19px;
+            border: 2px solid black;
+            padding: 8px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            border-radius: 20px;
+        }
+
+        a {
+            color: purple;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <div class="image">
+            <img style="height: 250px; width: 250px"
+                src="https://i.pinimg.com/474x/0d/0d/ca/0d0dcab5f2a5ee77487ba0e9b4efbbbc.jpg"
+                alt="this is a pinterest image">
+        </div>
+        <br>
+
+        <span> PC </span>
+        <span> Books</span>
+        <span> Light </span>
+
+
+        <div class="heading">Work Desk</div>
+        <div class="content">
+            A woman with flowing purple hair sits at a desk, coding on a glowing screen, surrounded by plants and
+            notebooks.
+        </div>
+        <!-- <a style="color: rgb(236, 2, 139);" href="https://in.pinterest.com/">Read more</a> -->
+        
+        <!--to center align an attributes like button, a href, add text-align: center to its parent class.. uske liye make a parent class first -->
+        <div class="button">
+            <button> <a target="_blank" href="https://in.pinterest.com/">Read More</a></button>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

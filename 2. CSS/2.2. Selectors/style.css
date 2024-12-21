@@ -1,0 +1,35 @@
+.red{
+    color: red;
+}
+
+#green{
+    color: green;
+}
+ 
+div>p{
+    color: rgb(245, 12, 128);
+}
+
+div article{
+    color: brown ;
+    background-color: yellow;
+}
+
+* {
+    margin: 1px;
+       padding: 3;
+   }
+
+
+a:visited{
+    color: red;
+}
+a:link{
+    color: aqua;
+}
+a:active{
+    background-color: black;
+}
+a:hover{
+    background-color: chocolate;
+}

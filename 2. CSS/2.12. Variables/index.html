@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root{
+            --color: pink;
+            --seccolor: rgb(245, 97, 171);
+            --defpad: 72px;
+            /* this way we can make variables of any way we like and use them again and again instead of defining vahi properties again and again. */
+        }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .nav{
+            background-color: var(--color);
+        }
+        ul{
+            display: flex; /*used to display list elements in one line*/
+        }
+        ul li{
+            list-style: none;
+            padding: var(--defpad);
+        }
+        .container{
+            background-color: var(--seccolor);
+        }
+
+        ul li:first-child{
+            --color: rgb(185, 2, 33);
+            background-color: var(--color);
+        }
+    </style>
+</head>
+<body>
+    <nav></nav>
+    <div class="nav">
+        <ul>
+            <li>Name</li>
+            <li>Sex</li>
+            <li>Age</li>
+        </ul>
+
+    </div>
+
+
+    <div class="container">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum magnam omnis aut repudiandae ab, beatae nam, cumque adipisci, ratione eaque aliquam officiis ipsa. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam praesentium consequatur hic, corporis minus voluptatem a nam unde cupiditate. Provident laudantium a cumque! Dolorem quia animi, natus recusandae accusamus vel?</div>
+</body>
+</html>

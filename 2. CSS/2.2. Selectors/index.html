@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SELECTORS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="red">this is class red</div>
+    <br>
+    <div id="green">this is ID green</div>
+<br>
+
+    <br>
+    Child selectors:
+    <div><p>this is para inside div i.e para is DIRECT CHILD of div, given by:- div > p{ }</p></div>
+    <div><span><p>this is para inside span wich is  inside div so HERE para is not direct child of div, thus div > p does not apply HERE</p></span></div>
+    
+    DESCENDANT SELECTOR:
+    <div><p><article>in this case if ARTICLE is any descendant of div, it works. (like DIRECT child is not imp,koi bhi child works.)</article></p></div>
+
+    UNIVERSAL SELECTOR :
+    it gets applied to anything and everything in the body of the file, be it in soan, div, p, or in no tags too. defined by- *{}
+
+    Pseudo selector:
+    used for links- 
+    <ol>
+        <li>visited - which is visited pehle -<a href="https://www.gooogle.com">Open google</a></li>
+        <li>unvisited (link) abhi tak not visited even once- <a href="https://www.facebook.com">Open Facebook</a></li>
+        <li>active (agar hover nai lagaya hai toh hi works)- when you CLICK on the link tab colour change hotay link ka- <a href="https://www.instagram.com">Open insta</a></li>
+        <li>hover: when you take cursor on the link , tabhi highlight/ change hotay color<a href="https://www.nykaa.com">Open Nykaa</a></li>
+    </ol>
+    
+</body>
+</html>

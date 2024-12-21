@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More of selectors</title>
+
+    <style>
+        .box:first-child{
+            color: red;
+        }
+
+        .box:nth-child(3){
+            color: purple;
+        }
+
+        .box::first-line{
+            color: blue ;
+        }
+        .box::first-letter{
+            color: green;
+            font-weight: 1000;
+            font-size: 25px;
+        }
+    </style>
+</head>
+<body>
+    <div class="boxes">
+<div class="box">BOX1 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium aut omnis voluptas.</div>
+<div class="box">BOX2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, nam? Quaerat, officia.</div>
+<div class="box">BOX3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci neque est dolor?</div>
+<div class="box">BOX4 Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quas quia natus.</div>
+
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Queries</title>
+    <style>
+        body{
+            background-color: rgb(255, 3, 129);
+        }
+        /* @media screen and (orientation: potrait){
+           body{
+            flex-wrap: wrap;
+           background-color: yellow;    
+        }
+    } */
+
+        @media only screen and (max-width:362px){
+            body{
+            background-color: red;
+            }
+            .boxes{
+                flex-direction: column;
+            }   
+        }
+        .boxes{
+            display: flex;
+        }
+        .box{
+            width: 100px;
+            height: 84px;
+            background-color: azure;
+            padding: 3px;
+            margin: 3px;
+        }
+    </style>
+</head>
+<body>
+    this is bodyyyy
+    <div class="boxes">
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+</div>
+</body>
+</html>

@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&display=swap');
+
+p{
+    font-family: "Baloo Bhai 2", sans-serif;
+    font-size:large;
+    line-height: 1.4pc;
+    text-transform: capitalize;
+    text-decoration: underline;
+    text-decoration-color:red;
+    text-decoration-thickness: 5px;
+    text-decoration-style: dotted;
+    text-indent: 5px;
+    
+}
+
+div{
+    color: aqua;
+    font-size: 20px;
+}
+
+.lorem{
+    border: 2px solid red;
+    width: 10px;
+    text-overflow: ellipsis;
+}
