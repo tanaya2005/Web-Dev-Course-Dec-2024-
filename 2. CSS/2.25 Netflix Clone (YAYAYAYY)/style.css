@@ -1,0 +1,9 @@
+.container{
+    width: 20vw;
+    height: 40vh;
+    background-color: yellow;
+    border: 2px solid black;
+}
+body{
+    background-color: black;
+}
