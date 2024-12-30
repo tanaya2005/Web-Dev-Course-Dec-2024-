@@ -1,0 +1,78 @@
+.screen1 {
+    /* width: 100vw; */
+    height: 80vh;
+    background-image: url("https://raw.githubusercontent.com/CodeWithHarry/Sigma-Web-Dev-Course/refs/heads/main/Video%2053/assets/images/bg.jpg") ;
+    /* opacity: 40%; */
+    border-bottom: 5px solid rgb(61, 61, 61);
+    background-position: center center;
+    /* background-size: max(1200px, 100vw); */
+    background-repeat: no-repeat;   
+    position: relative; 
+}
+.screen1 .bgimg{
+    height: 80vh;
+    width: 100vw;
+    background-color: black;
+    opacity: 0.65;
+    position: absolute;
+    /* border: 3px solid gray; */
+    left: 0;
+    top: 0%;
+}
+
+.navbar{
+    width: 70vw;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    position: relative; 
+}
+
+.logo {
+    display: flex;
+    /* position: absolute;
+    top: 20px;
+    left: 430px; */
+    width: 80px;
+    height: 50px;
+    filter: brightness(600%) contrast(80%) opacity(400%);
+}
+
+body {
+    background-color: black;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.center{
+    color: antiquewhite;
+    height: 80vh;
+    width: 100vw;
+    position: absolute;
+    /* display:flex ; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: block;
+}
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.enteremail{
+    font-size: 28px;
+    display: grid;
+    /* padding: 12px;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    justify-content: center; 
+    grid-template-columns: "mail mail mail start";
+
+}
