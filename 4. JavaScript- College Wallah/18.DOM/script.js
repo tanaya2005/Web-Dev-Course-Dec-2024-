@@ -5,4 +5,4 @@ a.style.fontFamily="Gill Sans"
 
 let b=document.querySelector("h2");
 b.style.backgroundColor="yellow";
-b.innerHTML="changed"; //can change html ka code this waya
+b.innerHTML="changed"; //can change html ka code this way

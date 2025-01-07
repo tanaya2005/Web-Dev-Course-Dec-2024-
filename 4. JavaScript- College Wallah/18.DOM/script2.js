@@ -12,3 +12,7 @@ setTimeout(function(){
     y.innerHTML="Letsgoooooooooooo"
     y.style.fontFamily="arial";
 }, 4500);
+
+setTimeout(function(){
+    y.style.fontSize="50px";
+}, 4000)
