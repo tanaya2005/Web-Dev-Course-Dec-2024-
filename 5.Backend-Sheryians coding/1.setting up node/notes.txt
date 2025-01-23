@@ -1,0 +1,5 @@
+npm helps us take links form the npm webste and use it in our projects to implement.
+
+package = reusable code uploaded by someone to help people use them for free if needed, and with convinience. we can just cpy paste the links/codes for installation of packages and they're downloaded in the project automatically
+
+require('cat-me') allows us to use the cat-me package (located in the node_modules->cat-me folder)in our file. ppora cat-me ka code it brings to our js file
