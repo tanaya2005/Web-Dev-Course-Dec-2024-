@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+
 const Header = () => {
   return (
     <div className='py-7 flex items-center justify-between bg-pink-700 text-pink-100 text-2xl text-semibold'>

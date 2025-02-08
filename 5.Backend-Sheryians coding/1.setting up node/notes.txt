@@ -1,7 +1,24 @@
+node js gives us a Runtiem env to run app on our own server instead of the browser
+
 npm helps us take links form the npm webste and use it in our projects to implement.
 
 package = reusable code uploaded by someone to help people use them for free if needed, and with convinience. we can just cpy paste the links/codes for installation of packages and they're downloaded in the project automatically
 
 require('cat-me') allows us to use the cat-me package (located in the node_modules->cat-me folder)in our file. ppora cat-me ka code it brings to our js file
 
-package.json file tells us details abt the app: name, version of tech stacks, index.file and MAINLY DEPENDENCIES-tells us app ke andar kya kay code hai jiske bina app kaam nai karega
+package.json (for developer) file tells us details abt the app: app name, version of tech stacks,scripts, keywords, lisence, index.file and MAINLY DEPENDENCIES-tells us app ke andar kya kay code hai (jo saari cheeze are actually located inside the node modules) jiske bina app kaam nai karega.. and these things are just noted in the json file, but are actually stored in the node_modules
+
+package-lock.json= for system (nott imp for us)
+
+
+
+CREATING A SERVER and getting response from it
+
+ports=gates jaha se humare server ka data pass hotay
+
+http is already installed when we install node modules
+create a const server=http.createServer() this method returns a newly created server in the "server" variable
+localhost:3000/about    (about is a route)
+
+npx nodemon index.js (in terminal)
+nodemon restarts the app in real-time so that as soon as koi js file update hotiye toh it automatically refreshes and updates the webite
